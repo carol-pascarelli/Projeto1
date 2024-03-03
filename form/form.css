@@ -1,0 +1,36 @@
+#input-form {
+    padding: 15px;
+    max-width: 270px;
+    overflow: visible;
+    position: auto;
+}
+
+#input-form input{
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 250px;
+    border-style: none;
+    background-color: #8ecbf4;
+    color: #ffffff;
+    overflow: visible;
+}
+
+::placeholder {
+    color:    rgb(225, 227, 198);
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+
+.webflow-style-input::after{
+    content: "";
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    right: 0px;
+    height: 2px;
+    background: '#B294FF';
+    width: 300px;
+}

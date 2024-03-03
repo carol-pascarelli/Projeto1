@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../M1-EX/exercicio_dragao"
+		},
+		{
+			"path": "../../../../Unilever"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Projeto"
+	}
+}
