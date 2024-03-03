@@ -156,7 +156,7 @@ update ()
     else if (this.cursors.right.isDown)
         this.player.setVelocityX(300),
         this.player.anims.play('walk', true),
-        this.player.setFlipX(false, false);
+        this.player.setFlipX(false, false);// muda a direção do gato dependendo do lado que ele esta indo
     else
         this.player.setVelocityX(0),
        this.player.anims.play('walk');
