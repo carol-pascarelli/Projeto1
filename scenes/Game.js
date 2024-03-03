@@ -160,7 +160,7 @@ update ()
     else
         this.player.setVelocityX(0),
        this.player.anims.play('walk');
-    if (this.cursors.up.isDown && this.player.body.touching.down)
+    if (this.cursors.space.isDown && this.player.body.touching.down)
         this.player.setVelocityY(-500);
     
 }
